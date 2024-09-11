@@ -6,7 +6,7 @@ cred = credentials.Certificate("/home/pi/firebase-adminsdk.json")
 
 # Initialisation de l'application Firebase
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://benrover-8ebf6-default-rtdb.firebaseio.com'
+    'databaseURL': 'https://<YOUR_PROJECT_ID>.firebaseio.com'
 })
 
 # Référence à la base de données
